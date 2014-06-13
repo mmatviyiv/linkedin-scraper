@@ -161,6 +161,8 @@ module Linkedin
           end_date = node.at('.dtend')['title'] rescue nil
           company[:end_date] = parse_date(end_date) rescue nil
 
+          company[:location] = node.at('.location').text rescue nil
+
           company_link = node.at('h4/strong/a')['href'] if node.at('h4/strong/a')
 
           result = get_company_details(company_link)
