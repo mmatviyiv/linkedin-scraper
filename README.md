@@ -1,4 +1,5 @@
-[![Build Status](https://secure.travis-ci.org/yatishmehta27/linkedin-scraper.png)](http://travis-ci.org/yatishmehta27/linkedin-scraper)
+[![Build Status](https://secure.travis-ci.org/yatish27/linkedin-scraper.png)](http://travis-ci.org/yatish27/linkedin-scraper)
+[![Gem Version](https://badge.fury.io/rb/linkedin-scraper.png)](http://badge.fury.io/rb/linkedin-scraper)
 
 Linkedin Scraper
 ================
@@ -250,5 +251,9 @@ For current and past comapnies it also provides the details of the companies lik
     }
     ]
 
+
+The gem also comes with a binary and can be used from the command line to get a json response of the scraped data. It takes the url as the first argument.
+
+    linkedin-scraper http://www.linkedin.com/in/jeffweiner08
 
 You're welcome to fork this project and send pull requests
